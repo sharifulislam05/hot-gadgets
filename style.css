@@ -1,0 +1,53 @@
+button{
+    text-decoration: none;
+    background: black;
+    border-radius:10px;
+    color: white;
+    padding: 5px 10px;
+}
+.banner-container{
+    /* background: url(./images/bg-2.png); */
+    background-position: left bottom;
+    background-size: cover
+}
+.banner-divider{
+    background-image: url(./images/bg-1.png);
+    background-size: 100px 100px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.carousel-control-next{
+    color: red;
+}
+.carousel-indicators li{
+    width: 36px;
+    height: 5px;
+    border-radius: 15px;
+    background: gray;
+    border: none;
+}
+.carousel-indicators .active{
+    width: 36px;
+    height: 5px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(45deg, #FFD019 , #FFD019)
+}
+.card{
+    border: none;
+}
+.category-item{
+    width: 200px;
+    height: 220px;
+    background: white;
+    box-shadow: 0 0 20px lightgray;
+    text-align: center;
+}
+.category-header hr{
+    height: 8px;
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(to right , red, salmon);
+    text-align: center;
+}
